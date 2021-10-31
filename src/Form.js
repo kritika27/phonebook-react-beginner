@@ -33,13 +33,14 @@ export const Forms = ({
             <Form.Group as={Col}>
               <Form.Label>Number</Form.Label>
               <Form.Control
-                type="text"
+                type="number"
                 placeholder="Enter the Number"
                 value={number}
                 onChange={(e) => setNumber(e.target.value)}
               />
             </Form.Group>
-            <Form.Group as={Col} controlId="formBasicCheckbox">
+            <Form.Group as={Col}>
+              {/* //</Row>controlId="formBasicCheckbox"> */}
               <Form.Label>Category</Form.Label>
               <Form.Select
                 value={category}
